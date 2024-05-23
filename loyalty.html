@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tropico</title>
+
+     <!--font awesome cdn link--> 
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+     <link rel="stylesheet" href="./css/loyalty.css" type="text/css">
+     <link rel="manifest" href="./manifest.json">
+     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+     <!-- Favicon -->
+    <link rel="icon" href="./img/fav-icon.png" type="image/png">
+
+
+</head>
+<body>
+
+ <!-- header section -->
+ <header class="header">
+ 
+
+    <!--logo-------->
+    <a href="index.html"  class="logo">
+     <img src="img/Tropico.png" alt="logo">
+     </a> 
+     <nav class="menu"> 
+       <a href="index.html" class="active">Home</a>   
+       <a href="about us.html">About Us</a>
+       <a href="product.html">Products</a>
+       <a href="order.html">Order</a></li>
+       <a href="loyalty.html">Loyalty Registration</a>
+     </nav> 
+
+     <section class="search-bar">
+        <input type="text" placeholder="Search tropico...">
+        <button type="button">Search</button>
+    </section>
+
+<section class="icons">
+   <li><i class="fa-solid fa-bars" id="menu-btn"></i></li>
+</section>
+
+
+
+</header>
+
+ <main>
+  <!--section 1 - Banner-->
+<section class="home" id="home">
+
+    <section class="content">
+        <h3>fresh and<span> organic</span> products to you</h3>
+        <p> "Fresh produce, creamy dairy,and  cosmetics - your one-stop shop for quality essentials,
+            where freshness meets convenience!"</p>
+        <a href="product.html" class="btn">shop now</a>
+        <section class="search-tags">
+          <a href="vegetable.html">#vegetables</a>
+          <a href="cosmetics.html">#cosmetics</a>
+          <a href="dairy.html">#dairy</a>
+      </section>
+    </section>
+</section>
+
+  <!--section 1 - Loyalty Registration section-->
+<section class="loyalty-section">
+    <h1 class="heading">Loyatly <span>Registration</span></h1>  
+   <form class="order-form">
+       <section class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </section>
+
+        <section class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </section>
+        <section class="form-group">
+          <label for="address">Address</label>
+          <input type="address" id="address" name="address" row="3" required>
+        </section>
+        <section class="form-group">
+          <label for="gender">Gender:</label>
+          <select id="gender" name="gender" required>
+            <option value="" disabled selected>Select gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </section>
+        <section class="form-group">
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone"  maxlength="10" required>
+        </section>
+        <section class="form-group">
+          <label>Choose a Loyalty Scheme:</label>
+          <section class="loyalty-schemes">
+            <label class="loyalty-scheme">
+              <input type="radio" name="loyalty-scheme" value="gold" required>
+              <img src="./img/gold.png" alt="Gold Scheme">
+              <p>Gold Scheme</p>
+            </label>
+            <label class="loyalty-scheme">
+              <input type="radio" name="loyalty-scheme" value="silver">
+              <img src="./img/silver.png" alt="Silver Scheme">
+              <p>Silver Scheme</p>
+            </label>
+            <label class="loyalty-scheme">
+              <input type="radio" name="loyalty-scheme" value="bronze">
+              <img src="./img/bronze.png" alt="Bronze Scheme">
+              <p>Bronze Scheme</p>
+            </label>
+          </section>
+        </section>
+        <center><button type="submit" class="btn">Register</button></center>
+      </form>
+    </section>
+  </section>
+
+  </main>
+  
+  
+
+    
+
+ <!-- Footer-->
+ <section class="footer">
+    <section class="footer-container">
+        <section class="box">
+            <h4><a href="#"  class="logo"><img src="img/Tropico.png" alt="logo"></a>Tropico</h4>
+            <p>Fresh, quality groceries delivered to your doorstep with ultimate convenience.</p>
+            <section class="share">
+                <a href="#" class="fa-brands fa-facebook"></a>
+                <a href="#" class="fa-brands fa-twitter"></a>
+                <a href="#" class="fa-brands fa-instagram"></a>
+                <a href="#" class="fa-brands fa-linkedin"></a>
+            </section>
+        </section>
+ 
+        <section class="box">
+            <h3>Contact info</h3>
+            <a href="#" class="links"> <i class="fa-solid fa-phone"></i>+123-456-7890</a>
+            <a href="#" class="links"><i class="fa-solid fa-phone"></i>+111-222-3333</a>
+            <a href="#" class="links"><i class="fa-solid fa-envelope"></i>tropico@gmail.com</a>
+            <a href="#" class="links"><i class="fa-solid fa-location-dot"></i>Kandy, Sri Lanka - 400104</a>
+        </section>
+ 
+        <section class="box">
+            <h3>Quick links</h3>
+            <a href="index.html" class="links"> <i class="fa-solid fa-arrow-right"></i>Home</a>
+            <a href="about us.html" class="links"> <i class="fa-solid fa-arrow-right"></i>About us</a>
+            <a href="product.html" class="links"> <i class="fa-solid fa-arrow-right"></i>Products</a>
+            <a href="order.html" class="links"> <i class="fa-solid fa-arrow-right"></i>Order</a>
+            <a href="loyalty.html" class="links"> <i class="fa-solid fa-arrow-right"></i>Loyalty Registration</a>
+        </section>
+ 
+        <section class="box">
+            <h3>Newsletter</h3>
+            <p1>Subscribe for latest updates</p1>
+            <input type="email" placeholder="Your email" class="email">
+            <input type="submit" value="Subscribe" class="btn">
+            <img src="./img/payment-img.png" class="payment-img" alt="">
+        </section>
+    </section>
+ 
+    <section class="footer-bottom">
+        <p class="rights">&copy; 2024 Your Company. All rights reserved.<br><br>Created by Geethika Jayaweera.
+        </p>
+    </section>
+ </section>
+</body>
+</html>
